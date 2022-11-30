@@ -36,7 +36,9 @@ class Router {
         ];
 
         //obtiene la url donde se esta posicionado
-        $urlActual = $_SERVER['PATH_INFO'] ?? '/';
+        $urlActual = $_SERVER['REQUEST_URI'] ?? '/';
+        //$urlActual = $_SERVER['PATH_INFO'] ?? '/';
+
         //obtiene el metodo utilizado GET o POST
         $metodo = $_SERVER['REQUEST_METHOD'];
         
@@ -48,7 +50,6 @@ class Router {
             //identifica si la url actual existe
             $fn = $this->rutasPOST[$urlActual] ?? null;
         }
-
         //proteger las rutas
         if(in_array($urlActual, $rutas_protegidas) && !$auth){
             header('Location: /');
