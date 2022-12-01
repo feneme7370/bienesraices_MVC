@@ -30,7 +30,7 @@
 				<tr>
 					<td><?php echo $propiedad->id ?></td>
 					<td><?php echo $propiedad->titulo ?></td>
-					<td><img class="imagen-table" src="public/images/<?php echo $propiedad->imagen ?>"></td>
+					<td><img class="imagen-table" src="/images/<?php echo $propiedad->imagen ?>"></td>
 					<td><?php echo $propiedad->precio ?></td>
 					<td>
 						<form method="POST" action="/propiedades/eliminar">

@@ -2,8 +2,8 @@
         <h1>Guía para la decoración de tu hogar</h1>
         <picture>
             <!-- <source srcset="/src/img/destacada2.webp" type="image/webp"> -->
-            <source srcset="/src/img/destacada2.jpg" type="image/jpeg">
-            <img loading="lazy" src="/src/img/destacada2.jpg" alt="imagen de la propiedad">
+            <source srcset="/img/destacada2.jpg" type="image/jpeg">
+            <img loading="lazy" src="/img/destacada2.jpg" alt="imagen de la propiedad">
         </picture>
 
         <p class="informacion-meta">Escrito el: <span>20/10/2021</span> por: <span>Admin</span> </p>

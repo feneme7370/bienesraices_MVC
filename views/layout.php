@@ -13,8 +13,8 @@ if(!isset($imgHeader)){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bienes Raices</title>
-    <link rel="stylesheet" href="/src/css/style.css">
-    <link rel="stylesheet" href="/src/css/normalize.css">
+    <link rel="stylesheet" "text/css" href="/css/style.css">
+    <link rel="stylesheet" "text/css" href="/css/normalize.css">
 		<!-- GOOGLE FONT -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,14 +26,14 @@ if(!isset($imgHeader)){
 	<header class="header <?php echo $imgHeader ? 'home' : ""; ?>">
 		<div class="container">
 			<div class="barra__header">
-				<img class="logo__header" src="/src/img/logo.svg">
+				<img class="logo__header" src="/img/logo.svg">
 
 				<div class="mobile-menu">
-					<img src="/src/img/barras.svg" alt="logo-menu-burger">
+					<img src="/img/barras.svg" alt="logo-menu-burger">
 				</div>
 				<div class="derecha">
 					<div class="dark-mode">
-						<img src="/src/img/dark-mode.svg" alt="btn dark">
+						<img src="/img/dark-mode.svg" alt="btn dark">
 					</div>
 					<nav class="nav__header">
 						<a href="/">Inicio</a>
@@ -76,7 +76,7 @@ if(!isset($imgHeader)){
 		</div>
 	</footer>
 	
-	<script src="/src/js/modernizr.js"></script>
-	<script src="/src/js/app.js"></script>
+	<script src="/js/modernizr.js"></script>
+	<script src="/js/app.js"></script>
 </body>
 </html>

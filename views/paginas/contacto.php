@@ -9,7 +9,7 @@
 			 ;?>
 
 			<picture class="img__contacto">
-				<img src="src/img/destacada3.jpg">
+				<img src="/img/destacada3.jpg">
 			</picture>
 			<h3 class="subtitle__contacto">Llene el formulario para contactarnos</h3>
 			<form class="form__contacto" action="/contacto" method="POST">

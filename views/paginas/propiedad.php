@@ -4,20 +4,20 @@
 			<div class="product">
 				<h3 class="title__product"><?php echo $propiedad->titulo;?></h3>
 				<p class="p__product"><?php echo $propiedad->descripcion;?></p>
-				<img src="/public/images/<?php echo $propiedad->imagen;?>" class="img__product">
+				<img src="/images/<?php echo $propiedad->imagen;?>" class="img__product">
 				<div class="info_product container">
 					<p class="price__product">$<?php echo $propiedad->precio;?></p>
 					<div class="icons__store">
 						<div class="icon_store">
-							<img src="src/img/icono_dormitorio.svg">
+							<img src="/img/icono_dormitorio.svg">
 							<p><?php echo $propiedad->habitaciones;?></p>
 						</div>
 						<div class="icon_store">
-							<img src="src/img/icono_wc.svg">
+							<img src="/img/icono_wc.svg">
 							<p><?php echo $propiedad->wc;?></p>
 						</div>
 						<div class="icon_store">
-							<img src="src/img/icono_estacionamiento.svg">
+							<img src="/img/icono_estacionamiento.svg">
 							<p><?php echo $propiedad->estacionamiento;?></p>
 						</div>
 					</div> <!--..icons_store-->

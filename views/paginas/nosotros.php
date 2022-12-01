@@ -3,7 +3,7 @@
 			<h2 class="title__nosotros">Sobre nosotros</h2>
 			<div class="info__nosotros">
 				<picture>
-					<img src="src/img/nosotros.jpg">
+					<img src="/img/nosotros.jpg">
 				</picture>
 				<div class="texto__nosotros container">
 					<p class="subtitle__nosotros">25 Años de experiencia </p>
@@ -17,17 +17,17 @@
 			<h2 class="title__info">Más Sobre Nosotros</h2>
 			<div class="icons">
 				<div class="icon">
-					<img src="src/img/icono1.svg" class="icon__icon">
+					<img src="/img/icono1.svg" class="icon__icon">
 					<h3 class="title__icon">Seguridad</h3>
 					<p class="p__icon">Possimus, suscipit repudiandae. Autem deserunt aliquid deleniti sit minus consectetur obcaecati molestiae dolorem.</p>
 				</div>
 				<div class="icon">
-					<img src="src/img/icono2.svg" class="icon__icon">
+					<img src="/img/icono2.svg" class="icon__icon">
 					<h3 class="title__icon">Precio</h3>
 					<p class="p__icon">Possimus, suscipit repudiandae. Autem deserunt aliquid deleniti sit minus consectetur obcaecati molestiae dolorem.</p>
 				</div>
 				<div class="icon">
-					<img src="src/img/icono3.svg" class="icon__icon">
+					<img src="/img/icono3.svg" class="icon__icon">
 					<h3 class="title__icon">Tiempo</h3>
 					<p class="p__icon">Possimus, suscipit repudiandae. Autem deserunt aliquid deleniti sit minus consectetur obcaecati molestiae dolorem.</p>
 				</div>

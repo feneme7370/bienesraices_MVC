@@ -11,7 +11,7 @@
 		
 		<form class="form__contacto" action="" method="POST" enctype="multipart/form-data">
 			
-			<?php include "views/propiedades/formulario.php";?>
+			<?php include "formulario.php";?>
 			<div class="submit-contenedor">
 				<input type="submit" value="Actualizar" class="submit boton boton--secundario">
 			</div>

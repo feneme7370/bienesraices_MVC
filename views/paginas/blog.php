@@ -6,7 +6,7 @@
 				<div class="entrada">
 					<a href="/entrada">
 						<picture class="img__entrada">
-							<img src="src/img/blog1.jpg">
+							<img src="/img/blog1.jpg">
 						</picture>
 					</a>
 					<div  class="info__entrada">
@@ -18,7 +18,7 @@
 				<div class="entrada">
 					<a href="/entrada">
 						<picture class="img__entrada">
-							<img src="src/img/blog2.jpg">
+							<img src="/img/blog2.jpg">
 						</picture>
 					</a>
 					<div class="info__entrada">
@@ -30,7 +30,7 @@
 				<div class="entrada">
 					<a href="/entrada">
 						<picture class="img__entrada">
-							<img src="src/img/blog3.jpg">
+							<img src="/img/blog3.jpg">
 						</picture>
 					</a>
 					<div class="info__entrada">
@@ -42,7 +42,7 @@
 				<div class="entrada">
 					<a href="/entrada">
 						<picture class="img__entrada">
-							<img src="src/img/blog4.jpg">
+							<img src="/img/blog4.jpg">
 						</picture>
 					</a>
 					<div class="info__entrada">

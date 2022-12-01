@@ -66,7 +66,7 @@ class PropiedadController{
             //si array esta vacio no hay errores, por lo tanto, inserto
             if(empty($errores)){
                 //crear carpeta para imagenes
-                $carpetaImagenes = $_SERVER["DOCUMENT_ROOT"] . '/public/images/';
+                $carpetaImagenes = $_SERVER["DOCUMENT_ROOT"] . '/images/';
                 
                 if(!is_dir($carpetaImagenes)){
                     mkdir($carpetaImagenes);
