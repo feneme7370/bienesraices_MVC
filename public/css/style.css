@@ -703,7 +703,7 @@ img{
 
 /* MODO DARK */
 .darkBody{
-	background-color: var(--color-black-light);
+	background-color: var(--color-black-light2);
 }
 .darkBody p{
 	color:var(--color-white)
@@ -736,10 +736,14 @@ img{
 .darkBody fieldset{
 	background-color: var(--color-black-light2);	
 }
-.darkBody input, .darkBody textarea, .darkBody select{
+.darkBody .contacto input:not(input[type="submit"]),.darkBody  .contacto textarea,.darkBody  .contacto select{
 	background-color: var(--color-grey);	
 }
 .darkBody .product{
 	background-color: none;
 	border: none;
+}
+.darkBody .table.propiedades{
+	background-color: transparent;	
+	color: var(--color-white);
 }

@@ -45,7 +45,7 @@ function eventListeners() {
 }
 
 function navegacionResponsive() {
-    const navegacion = document.querySelector('.navegacion');
+    const navegacion = document.querySelector('.nav__header');
 
     navegacion.classList.toggle('mostrar')
 }
