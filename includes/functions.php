@@ -6,6 +6,11 @@ define('TEMPLATE_URL', __DIR__ . "/templates");
 define('IMAGES_URL', $direccion . "/public/images/");
 $images_url = IMAGES_URL;
 
+date_default_timezone_set('UTC');
+date_default_timezone_set("America/Argentina/Buenos_Aires");
+
+
+
 function incluirTemplate($nombre, $imgHeader = false){
 	include TEMPLATE_URL."/${nombre}.php";
 }
